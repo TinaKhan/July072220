@@ -7,4 +7,7 @@ public interface College {
 	public static void studyRoom() {//static method can be inplemented
 		System.out.println("This is static method from college interface");
 	}
+	public static void studyRoom2() {//static method can be inplemented
+		System.out.println("This is static method from college interface");
+	}
 }
