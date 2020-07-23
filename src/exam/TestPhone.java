@@ -14,8 +14,13 @@ public class TestPhone {
 		pi.interfaceInfo();
 		pi.message();
 		pi.regularClassInfo();
-		
+		pi.setPrice(750);
+		pi.setiNfo("I bought this phone in 2000");
+		pi.setUser('F');
+		pi.setMadeInUSA(false);
+		System.out.println(pi.getiNfo()+", the price was "+pi.getPrice()+", grade is "+pi.getUser()+" and the boolean value is "
+				+ ""+pi.isMadeInUSA());
+
 	}
-	
 
 }
