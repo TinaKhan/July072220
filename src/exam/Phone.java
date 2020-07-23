@@ -1,4 +1,5 @@
 package exam;
+
 /*  Interface name starts with Uppercase
  * The methods which are created inside the interface are called abstract method.
  * An Interface can inherit more than one Interface
@@ -8,18 +9,25 @@ package exam;
  * Default and static methods can be implemented in Interface.
  * We can't create constructor inside the Interface
  */
+//CTRL+A
+//CTRL+SHIFT+F
 public interface Phone {
-	public int id=111;
-public  abstract void  interfaceInfo();
-public  abstract void  call();
+	public int id = 111;
 
-public  abstract void  message();
-public  abstract void  camera();
-public default    void  battery() {
-	System.out.println(" Battery is the method of Phone Interface ");
-}
-public static   void  wireless() {
-	System.out.println(" Wireless is the method of Phone Interface ");
-}
+	public abstract void interfaceInfo();
+
+	public abstract void call();
+
+	public abstract void message();
+
+	public abstract void camera();
+
+	public default void battery() {
+		System.out.println(" Battery is the method of Phone Interface ");
+	}
+
+	public static void wireless() {
+		System.out.println(" Wireless is the method of Phone Interface ");
+	}
 
 }

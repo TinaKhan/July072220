@@ -1,5 +1,5 @@
 package exam;
 
-public class AppleWatchSeries5 {
+public class AppleWatchSeries5 extends AppleWatch implements Watch,DigitalWatch{
 
 }
