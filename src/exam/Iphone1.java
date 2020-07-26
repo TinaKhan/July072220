@@ -5,6 +5,11 @@ public class Iphone1 extends AppleWatch implements Phone {
 	private String iNfo="Bought in April";
 	private char user='F';
 	private boolean madeInUSA=true;
+	
+	String dbox="dropbox";
+    public void iPhone2Info(int price) {
+    	System.out.println("The price   of Iphone2  is "+price);
+	}
 	public void regularClassInfo() {
 		System.out.println("Regular class can extend another "
 				+ "class and implement one or more Interfaces");
